@@ -6,7 +6,7 @@ Why?  Because.
 
 # How to run this thing
 
-Start a REPL (in a terminal: `lein repl`. In the REPL do:
+Start a REPL (in a terminal: `lein repl`). In the REPL do:
 
 ```clojure
 (run)
