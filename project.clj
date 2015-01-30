@@ -12,6 +12,7 @@
                  [compojure "1.2.0"]
                  [enlive "1.1.5"]
                  [om "0.7.3"]
+                 [prismatic/om-tools "0.3.9"]
                  [figwheel "0.1.4-SNAPSHOT"]
                  [environ "1.0.0"]
                  [com.cemerick/piggieback "0.1.3"]
