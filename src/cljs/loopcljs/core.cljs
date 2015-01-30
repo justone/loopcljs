@@ -7,7 +7,7 @@
 
 (def app-state (atom {:images ()}))
 
-(defn load-data
+(defn load-data!
   []
   (let [jsonp (goog.net.Jsonp. "http://www.reddit.com/r/perfectloops/top.json" "jsonp")]
     (.send jsonp
@@ -36,4 +36,4 @@
     {:target (. js/document (getElementById "app"))})
 
   ; load data
-  (load-data))
+  (load-data!))
