@@ -1,5 +1,10 @@
-# loopcljs
+# Wat?
 
+This is a ClojureScript implementation of [this post](http://glenmaddern.com/articles/javascript-in-2015).
+
+Why?  Because.
+
+# Docs from the template
 
 ## Development
 
